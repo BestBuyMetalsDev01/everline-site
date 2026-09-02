@@ -149,7 +149,7 @@ const SPEC_DATA = {
       { label: 'Post Spacing', value: '6 ft and 8 ft on-center standard' },
       { label: 'Applications', value: 'Perimeter boundaries, residential frontages, estates, equestrian' },
       { label: 'Maintenance', value: 'Zero staining, sealing, or painting required; wash with water' },
-      { label: 'Warranty', value: 'Best Buy Metals 25-Year Limited Architectural Warranty' }
+      { label: 'Warranty', value: 'Best Buy Metals 25-Year Limited Warranty' }
     ]
   },
   timberline: {
@@ -157,15 +157,14 @@ const SPEC_DATA = {
     subtitle: 'Natural wood-grain aesthetics paired with heavy-duty metal privacy engineering.',
     features: [
       { label: 'System Type', value: 'Full-Privacy Architectural Metal Tongue-and-Groove' },
-      { label: 'Standard Heights', value: '6 ft standard residential privacy (8 ft estate custom)' },
+      { label: 'Standard Heights', value: '6 ft standard residential privacy' },
       { label: 'Slat Orientation', value: 'Clean modern horizontal interlocking slats' },
       { label: 'Finish Options', value: 'High-definition architectural woodgrain patterns & matte solid tones' },
       { label: 'Material & Gauge', value: 'Heavy structural steel framing with precision-roll-formed slats' },
       { label: 'Coating Technology', value: 'UV-resistant PVDF multi-layer coating system' },
       { label: 'Post System', value: 'Internal concealed channel posts (zero visible fasteners)' },
-      { label: 'Wind Load Rating', value: 'Engineered for up to 110+ MPH wind exposure' },
       { label: 'Applications', value: 'Backyard retreats, pool enclosures, patio privacy, commercial screening' },
-      { label: 'Warranty', value: 'Best Buy Metals 25-Year Limited Architectural Warranty' }
+      { label: 'Warranty', value: 'Best Buy Metals 25-Year Limited Warranty' }
     ]
   }
 };
