@@ -1129,9 +1129,9 @@ a {
   max-width: var(--max-width);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1.1fr 1fr;
   gap: 70px;
-  align-items: center;
+  align-items: start;
 }
 
 .cta-banner-title {
@@ -1178,6 +1178,25 @@ a {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+/* HubSpot Embed Form Container */
+.hubspot-form-container {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: clamp(24px, 3.5vw, 40px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--color-primary-dark);
+}
+
+.hubspot-form-container .hs-form-frame {
+  width: 100%;
+}
+
+.hubspot-form-container iframe {
+  width: 100% !important;
+  border: none !important;
 }
 
 /* Contact Card Container */

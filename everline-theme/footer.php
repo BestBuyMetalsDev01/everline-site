@@ -33,19 +33,9 @@ $promo_code = everline_get_mod( 'everline_promo_code', 'EVERLINE15' );
       </div>
 
       <div class="cta-banner-right">
-        <div class="contact-card">
-          <p class="contact-card-text">
-            <?php esc_html_e( 'For current EverLine options, pricing, and ordering information, connect directly with your local Best Buy Metals team.', 'everline' ); ?>
-          </p>
-          <button class="btn btn-sage btn-block" id="contactSalesBtn">
-            <span><?php esc_html_e( 'CONTACT BEST BUY METALS', 'everline' ); ?></span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </button>
-          <div class="contact-card-phone">
-            <a href="tel:<?php echo esc_attr( $phone_clean ); ?>" class="phone-link">
-              <?php printf( esc_html__( 'OR CALL %s', 'everline' ), esc_html( $phone ) ); ?>
-            </a>
-          </div>
+        <div class="hubspot-form-container">
+          <script src="https://js.hsforms.net/forms/embed/6362600.js" defer></script>
+          <div class="hs-form-frame" data-region="na1" data-form-id="7051366e-60dd-4018-b004-5660ed5241e8" data-portal-id="6362600"></div>
         </div>
       </div>
     </div>

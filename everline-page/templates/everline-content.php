@@ -468,19 +468,9 @@ $promo_code = 'EVERLINE15';
       </div>
 
       <div class="cta-banner-right">
-        <div class="contact-card">
-          <p class="contact-card-text">
-            For current EverLine options, pricing, and ordering information, connect directly with your local Best Buy Metals team.
-          </p>
-          <button class="btn btn-sage btn-block" id="contactSalesBtn">
-            <span>CONTACT BEST BUY METALS</span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </button>
-          <div class="contact-card-phone">
-            <a href="tel:<?php echo esc_attr( $phone_clean ); ?>" class="phone-link">
-              OR CALL <?php echo esc_html( $phone ); ?>
-            </a>
-          </div>
+        <div class="hubspot-form-container">
+          <script src="https://js.hsforms.net/forms/embed/6362600.js" defer></script>
+          <div class="hs-form-frame" data-region="na1" data-form-id="7051366e-60dd-4018-b004-5660ed5241e8" data-portal-id="6362600"></div>
         </div>
       </div>
     </div>
