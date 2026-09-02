@@ -143,13 +143,14 @@ const SPEC_DATA = {
       { label: 'System Type', value: 'Architectural Horizontal Metal Rail' },
       { label: 'Standard Heights', value: '4 ft, 5 ft, and 6 ft nominal' },
       { label: 'Rail Configuration', value: '3-Rail or 4-Rail horizontal spacing' },
-      { label: 'Material & Gauge', value: 'Exterior-grade heavy gauge Galvalume® steel core' },
-      { label: 'Coating Technology', value: 'Ultra-durable architectural powder coat & fluoropolymer' },
+      { label: 'Substrate', value: 'Heavy-gauge Galvalume® steel core (55% aluminum / 45% zinc alloy)' },
+      { label: 'Coating Systems', value: 'Painted: primer & Galvalume® substrate under paint; Unpainted: 55% Al / 45% Zn with clear acrylic overcoat' },
       { label: 'Post Dimensions', value: '3" x 3" or 4" x 4" structural metal posts' },
       { label: 'Post Spacing', value: '6 ft and 8 ft on-center standard' },
       { label: 'Applications', value: 'Perimeter boundaries, residential frontages, estates, equestrian' },
       { label: 'Maintenance', value: 'Zero staining, sealing, or painting required; wash with water' },
-      { label: 'Warranty', value: 'Best Buy Metals 25-Year Limited Warranty' }
+      { label: 'Painted Warranty', value: '50-Year paint warranty, 50-Year substrate warranty, 30-Year fade/chalk warranty' },
+      { label: 'Galvalume Warranty', value: '45-Year unpainted Galvalume® warranty' }
     ]
   },
   timberline: {
@@ -160,11 +161,13 @@ const SPEC_DATA = {
       { label: 'Standard Heights', value: '6 ft standard residential privacy' },
       { label: 'Slat Orientation', value: 'Clean modern horizontal interlocking slats' },
       { label: 'Finish Options', value: 'High-definition architectural woodgrain patterns & matte solid tones' },
-      { label: 'Material & Gauge', value: 'Heavy structural steel framing with precision-roll-formed slats' },
-      { label: 'Coating Technology', value: 'UV-resistant PVDF multi-layer coating system' },
+      { label: 'Substrate', value: 'Heavy-gauge Galvalume® steel core (55% aluminum / 45% zinc alloy)' },
+      { label: 'Coating Systems', value: 'Painted: primer & Galvalume® substrate under paint; Unpainted: 55% Al / 45% Zn with clear acrylic overcoat' },
       { label: 'Post System', value: 'Internal concealed channel posts (zero visible fasteners)' },
       { label: 'Applications', value: 'Backyard retreats, pool enclosures, patio privacy, commercial screening' },
-      { label: 'Warranty', value: 'Best Buy Metals 25-Year Limited Warranty' }
+      { label: 'Maintenance', value: 'Zero staining, sealing, or painting required; wash with water' },
+      { label: 'Painted Warranty', value: '50-Year paint warranty, 50-Year substrate warranty, 30-Year fade/chalk warranty' },
+      { label: 'Galvalume Warranty', value: '45-Year unpainted Galvalume® warranty' }
     ]
   }
 };

@@ -448,6 +448,22 @@ $promo_code = 'EVERLINE15';
             </div>
           </div>
         </div>
+
+        <!-- Item 8 -->
+        <div class="accordion-item" id="faq-item-8">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-8" id="faq-btn-8">
+            <span class="accordion-num">08</span>
+            <span class="accordion-question">What warranties protect EverLine fencing?</span>
+            <span class="accordion-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="accordion-panel" id="faq-panel-8" role="region" aria-labelledby="faq-btn-8">
+            <div class="accordion-panel-inner">
+              EverLine is backed by industry-leading warranties from Best Buy Metals. Painted finishes carry a 50-year paint warranty, a 50-year substrate warranty, and a 30-year fade/chalk warranty, engineered with primer and a heavy-gauge Galvalume® steel substrate under the paint. Unpainted Galvalume carries a 45-year warranty with a 55% aluminum and 45% zinc protective coating plus a clear acrylic overcoat.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
