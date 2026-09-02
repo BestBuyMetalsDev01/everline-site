@@ -1,0 +1,646 @@
+<?php
+/**
+ * EverLine Landing Page Content
+ *
+ * @package EverLine_Page
+ */
+
+$img_url = EVERLINE_PAGE_URL . 'assets/images/';
+$phone = '(800) 728-4010';
+$phone_clean = '8007284010';
+$promo_code = 'EVERLINE15';
+?>
+
+<!-- Announcement Bar -->
+<div class="announcement-bar" id="announcementBar">
+  <div class="announcement-content">
+    <span class="announcement-date">PRE-ORDERS BEGIN SEPTEMBER 15</span>
+    <span class="announcement-sep">•</span>
+    <span class="announcement-text">Save 15% during the EverLine launch offer</span>
+    <a href="#launch-offer" class="announcement-link" id="viewOfferLink">
+      VIEW OFFER
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+    </a>
+  </div>
+  <button class="announcement-close" id="closeAnnouncement" aria-label="Close Announcement">&times;</button>
+</div>
+
+<!-- Main Navigation Header -->
+<header class="header" id="mainHeader">
+  <div class="header-container">
+    <a href="#hero" class="brand-logo-link" aria-label="EverLine">
+      <img src="<?php echo esc_url( $img_url . 'everline-black.png' ); ?>" alt="EVERLINE" class="brand-logo">
+      <span class="brand-subtext">A BEST BUY METALS PRODUCT</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary Navigation">
+      <a href="#collections" class="nav-link">COLLECTIONS</a>
+      <a href="#why-everline" class="nav-link">WHY EVERLINE</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn btn-dark btn-header" id="openQuoteModalBtn">
+        <span>CHECK AVAILABILITY</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </button>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <nav class="mobile-nav">
+      <a href="#collections" class="mobile-nav-link">COLLECTIONS</a>
+      <a href="#why-everline" class="mobile-nav-link">WHY EVERLINE</a>
+      <a href="#launch-offer" class="mobile-nav-link">LAUNCH OFFER</a>
+      <a href="#faq" class="mobile-nav-link">FAQ</a>
+      <a href="#contact" class="mobile-nav-link">CONTACT</a>
+    </nav>
+    <div class="mobile-drawer-cta">
+      <button class="btn btn-dark btn-full" id="mobileCheckAvailBtn">
+        <span>CHECK AVAILABILITY</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="everline-main-wrapper">
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-container">
+      <img src="<?php echo esc_url( $img_url . 'hero-clean.jpg' ); ?>" alt="EverLine Black Modern Metal Fence Landscape" class="hero-bg-img">
+      <div class="hero-overlay-gradient"></div>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-copy-box">
+        <span class="eyebrow hero-eyebrow">NEW FROM BEST BUY METALS</span>
+        <h1 class="hero-title">FOREVER FENCING NOW HAS A NAME.</h1>
+        <p class="hero-subtitle">
+          Clean lines, modern curb appeal, and metal durability—designed to complement your property for years to come.
+        </p>
+      </div>
+
+      <div class="hero-cta-box">
+        <a href="#collections" class="btn btn-white hero-btn-primary">
+          <span>EXPLORE COLLECTIONS</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+        <button class="btn btn-ghost hero-btn-secondary" id="heroLaunchPricingBtn">
+          <span>GET LAUNCH PRICING</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value Props Bar -->
+  <section class="value-props-section" aria-label="Key Benefits">
+    <div class="value-props-container">
+      <div class="value-prop-item">
+        <div class="value-prop-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        </div>
+        <div class="value-prop-text">
+          <h3 class="value-prop-title">METAL DURABILITY</h3>
+          <p class="value-prop-desc">Built for lasting performance</p>
+        </div>
+      </div>
+
+      <div class="value-prop-divider"></div>
+
+      <div class="value-prop-item">
+        <div class="value-prop-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        </div>
+        <div class="value-prop-text">
+          <h3 class="value-prop-title">LESS MAINTENANCE</h3>
+          <p class="value-prop-desc">No rot, warp, or regular staining</p>
+        </div>
+      </div>
+
+      <div class="value-prop-divider"></div>
+
+      <div class="value-prop-item">
+        <div class="value-prop-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+        </div>
+        <div class="value-prop-text">
+          <h3 class="value-prop-title">INSTALLER READY</h3>
+          <p class="value-prop-desc">Built for qualified contractors</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The EverLine Collections Section -->
+  <section class="collections-section" id="collections">
+    <div class="collections-header-container">
+      <div class="collections-heading-block">
+        <span class="eyebrow">THE EVERLINE COLLECTIONS</span>
+        <h2 class="section-title">
+          ONE DESIGN LANGUAGE.<br>
+          TWO WAYS TO DEFINE YOUR PROPERTY.
+        </h2>
+      </div>
+      <div class="collections-desc-block">
+        <p class="collections-lead">
+          Choose the warmth and privacy of TimberLine or the clean, open character of RidgeLine. Both bring the long-term performance of metal to the landscape.
+        </p>
+      </div>
+    </div>
+
+    <!-- Side-by-side Showcase Cards -->
+    <div class="collections-grid">
+      <!-- Card 1: RidgeLine -->
+      <article class="collection-card" id="ridgeline-card">
+        <div class="collection-image-wrapper">
+          <img src="<?php echo esc_url( $img_url . 'ridgeline.jpg' ); ?>" alt="RidgeLine Architectural Open Rail Fence" class="collection-img">
+        </div>
+        <div class="collection-info-box">
+          <div class="collection-meta-row">
+            <span class="collection-category">OPEN RAIL FENCE COLLECTION</span>
+            <span class="collection-number">01</span>
+          </div>
+          <img src="<?php echo esc_url( $img_url . 'ridgeline-black.png' ); ?>" alt="RIDGELINE" class="collection-brand-logo">
+          <p class="collection-body">
+            Inspired by ranches and rolling landscapes, RidgeLine defines property boundaries while maintaining visibility. Ideal for residential, agricultural, and estate applications.
+          </p>
+          <div class="collection-features-list">
+            <div class="feature-tag">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>OPEN, ARCHITECTURAL SIGHTLINES</span>
+            </div>
+            <div class="feature-tag">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>WOODGRAIN AND SOLID COLOR OPTIONS</span>
+            </div>
+          </div>
+          <div class="collection-card-action">
+            <button class="btn btn-outline btn-sm open-specs-btn" data-collection="ridgeline">
+              <span>VIEW SPECIFICATIONS</span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2: TimberLine -->
+      <article class="collection-card" id="timberline-card">
+        <div class="collection-image-wrapper">
+          <img src="<?php echo esc_url( $img_url . 'timberline.jpg' ); ?>" alt="TimberLine Woodgrain Metal Privacy Fence" class="collection-img">
+        </div>
+        <div class="collection-info-box">
+          <div class="collection-meta-row">
+            <span class="collection-category">CONTEMPORARY FENCE COLLECTION</span>
+            <span class="collection-number">02</span>
+          </div>
+          <img src="<?php echo esc_url( $img_url . 'timberline-black.png' ); ?>" alt="TIMBERLINE" class="collection-brand-logo">
+          <p class="collection-body">
+            Inspired by the warmth and character of natural wood, TimberLine features clean horizontal lines in privacy and rail configurations. Available in woodgrain and solid color options.
+          </p>
+          <div class="collection-features-list">
+            <div class="feature-tag">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>WOOD-INSPIRED CHARACTER</span>
+            </div>
+            <div class="feature-tag">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>PRIVACY AND RAIL CONFIGURATIONS</span>
+            </div>
+          </div>
+          <div class="collection-card-action">
+            <button class="btn btn-outline btn-sm open-specs-btn" data-collection="timberline">
+              <span>VIEW SPECIFICATIONS</span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Why Metal Fencing Split Section -->
+  <section class="why-metal-section" id="why-everline">
+    <div class="why-metal-grid">
+      <div class="why-metal-media">
+        <img src="<?php echo esc_url( $img_url . 'why-metal.jpg' ); ?>" alt="EverLine Architectural Woodgrain Metal Slat Details" class="why-metal-img">
+      </div>
+
+      <div class="why-metal-content">
+        <div class="why-metal-header">
+          <span class="eyebrow eyebrow-light">WHY METAL FENCING</span>
+          <h2 class="why-metal-title">
+            DESIGNED TO ENDURE MORE—AND DEMAND LESS.
+          </h2>
+          <p class="why-metal-lead">
+            EverLine combines the curb appeal homeowners want with the dependable material performance they expect from Best Buy Metals.
+          </p>
+        </div>
+
+        <div class="why-metal-points">
+          <div class="why-point-item">
+            <span class="why-point-num">01</span>
+            <div class="why-point-body">
+              <h4 class="why-point-title">Built for the elements</h4>
+              <p class="why-point-text">A modern metal system created for durable outdoor performance.</p>
+            </div>
+          </div>
+
+          <div class="why-point-item">
+            <span class="why-point-num">02</span>
+            <div class="why-point-body">
+              <h4 class="why-point-title">Less routine upkeep</h4>
+              <p class="why-point-text">No wood to rot, warp, or require regular staining.</p>
+            </div>
+          </div>
+
+          <div class="why-point-item">
+            <span class="why-point-num">03</span>
+            <div class="why-point-body">
+              <h4 class="why-point-title">A cohesive property solution</h4>
+              <p class="why-point-text">Configurations for privacy, visibility, residential, agricultural, and estate needs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Launch Offer 15% OFF Section -->
+  <section class="launch-offer-section" id="launch-offer">
+    <div class="launch-offer-container">
+      <div class="offer-badge-col">
+        <div class="offer-kicker-box">
+          <span class="offer-kicker-label">LIMITED-TIME</span>
+          <span class="offer-kicker-title">LAUNCH OFFER</span>
+        </div>
+        <div class="offer-discount-display">
+          <span class="discount-percent">15%</span>
+          <span class="discount-unit">OFF</span>
+        </div>
+      </div>
+
+      <div class="offer-content-col">
+        <h3 class="offer-headline">BE ONE OF THE FIRST TO EXPERIENCE EVERLINE.</h3>
+        <p class="offer-description">
+          Save 15% on fences purchased at pre-launch or within the first month of launch. Pre-orders begin September 15.
+        </p>
+        <span class="offer-disclaimer">Offer valid September 15–October 31, 2026. Restrictions may apply.</span>
+      </div>
+
+      <div class="offer-action-col">
+        <button class="btn btn-dark btn-offer" id="claimOfferBtn">
+          <span>GET LAUNCH PRICING</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Architectural Fence Track Border Motif -->
+    <div class="fence-rail-divider">
+      <div class="fence-rail-track"></div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion Section -->
+  <section class="faq-section" id="faq">
+    <div class="faq-container">
+      <div class="faq-intro-col">
+        <span class="eyebrow">QUESTIONS, ANSWERED</span>
+        <h2 class="faq-section-title">
+          PLAN YOUR EVERLINE PROJECT WITH CONFIDENCE.
+        </h2>
+        <p class="faq-intro-text">
+          Find quick answers about product differences, applications, installation, availability, and ordering.
+        </p>
+        <div class="faq-support-box">
+          <p>Need custom specs or architectural drawings?</p>
+          <a href="tel:<?php echo esc_attr( $phone_clean ); ?>" class="faq-phone-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>Speak with a Specialist: <?php echo esc_html( $phone ); ?></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="faq-accordion-col" role="region" aria-label="Frequently Asked Questions">
+        <!-- Item 1 -->
+        <div class="accordion-item" id="faq-item-1">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-1" id="faq-btn-1">
+            <span class="accordion-num">01</span>
+            <span class="accordion-question">What makes EverLine different from traditional fencing?</span>
+            <span class="accordion-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="accordion-panel" id="faq-panel-1" role="region" aria-labelledby="faq-btn-1">
+            <div class="accordion-panel-inner">
+              EverLine bridges architectural elegance and industrial strength. Unlike standard wood or vinyl fences, EverLine is engineered with heavy-duty exterior-grade steel coated in high-performance weather-resistant finishes. It will never warp, crack, splinter, fade, or host moss and mold—providing pristine curb appeal year after year.
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="accordion-item" id="faq-item-2">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-2" id="faq-btn-2">
+            <span class="accordion-num">02</span>
+            <span class="accordion-question">Why choose metal fencing instead of wood?</span>
+            <span class="accordion-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="accordion-panel" id="faq-panel-2" role="region" aria-labelledby="faq-btn-2">
+            <div class="accordion-panel-inner">
+              Traditional wood requires ongoing pressure washing, chemical sealers, re-staining, and periodic board replacement. EverLine’s metal construction delivers the organic warmth and character of natural wood without the constant maintenance, insect vulnerability, dry rot, or fire hazard.
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="accordion-item" id="faq-item-3">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-3" id="faq-btn-3">
+            <span class="accordion-num">03</span>
+            <span class="accordion-question">Can EverLine be used around an entire property?</span>
+            <span class="accordion-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="accordion-panel" id="faq-panel-3" role="region" aria-labelledby="faq-btn-3">
+            <div class="accordion-panel-inner">
+              Yes. Both TimberLine and RidgeLine share a unified architectural design language and mounting system. You can install full-privacy TimberLine panels around backyards, patios, and pools, while transitioning effortlessly to open-rail RidgeLine for front yards, driveways, and expansive property boundaries.
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="accordion-item" id="faq-item-4">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-4" id="faq-btn-4">
+            <span class="accordion-num">04</span>
+            <span class="accordion-question">Can contractors install EverLine?</span>
+            <span class="accordion-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="accordion-panel" id="faq-panel-4" role="region" aria-labelledby="faq-btn-4">
+            <div class="accordion-panel-inner">
+              Yes! EverLine is built installer-ready for fencing contractors, general contractors, and landscape professionals. Best Buy Metals supplies comprehensive installation documentation, specification guides, brackets, and dedicated contractor project support.
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="accordion-item" id="faq-item-5">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-5" id="faq-btn-5">
+            <span class="accordion-num">05</span>
+            <span class="accordion-question">Where can I buy EverLine?</span>
+            <span class="accordion-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="accordion-panel" id="faq-panel-5" role="region" aria-labelledby="faq-btn-5">
+            <div class="accordion-panel-inner">
+              EverLine is exclusively distributed through Best Buy Metals branches and authorized professional partners. You can order directly by requesting launch pricing through this website or speaking with your local Best Buy Metals sales representative.
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="accordion-item" id="faq-item-6">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-6" id="faq-btn-6">
+            <span class="accordion-num">06</span>
+            <span class="accordion-question">How quickly can I get my order?</span>
+            <span class="accordion-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="accordion-panel" id="faq-panel-6" role="region" aria-labelledby="faq-btn-6">
+            <div class="accordion-panel-inner">
+              Pre-orders officially open September 15, 2026. Production batches begin fulfillment in October 2026. Standard lead times once in full distribution run approximately 2 to 4 weeks depending on your order volume, destination, and selected finish options.
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="accordion-item" id="faq-item-7">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-7" id="faq-btn-7">
+            <span class="accordion-num">07</span>
+            <span class="accordion-question">Is EverLine easy to install?</span>
+            <span class="accordion-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="accordion-panel" id="faq-panel-7" role="region" aria-labelledby="faq-btn-7">
+            <div class="accordion-panel-inner">
+              Yes. EverLine uses an engineered modular bracket and channel system designed to reduce installation hours compared to traditional custom metalwork. Components slide securely into place without any field welding required.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pre-Footer CTA Section -->
+  <section class="cta-banner-section" id="contact">
+    <div class="cta-banner-container">
+      <div class="cta-banner-left">
+        <span class="eyebrow eyebrow-light">START YOUR PROJECT</span>
+        <h2 class="cta-banner-title">
+          BRING EVERLINE TO YOUR NEXT PROPERTY.
+        </h2>
+        <p class="cta-banner-text">
+          Tell us what you are planning. A local Best Buy Metals representative can help with product options, availability, pricing, and ordering.
+        </p>
+        <div class="cta-meta-row">
+          <div class="cta-meta-col">
+            <span class="cta-meta-label">PRE-ORDER WINDOW</span>
+          </div>
+          <div class="cta-meta-col text-right">
+            <span class="cta-meta-value">OPENS SEPTEMBER 15, 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-banner-right">
+        <div class="contact-card">
+          <p class="contact-card-text">
+            For current EverLine options, pricing, and ordering information, connect directly with your local Best Buy Metals team.
+          </p>
+          <button class="btn btn-sage btn-block" id="contactSalesBtn">
+            <span>CONTACT BEST BUY METALS</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+          <div class="contact-card-phone">
+            <a href="tel:<?php echo esc_attr( $phone_clean ); ?>" class="phone-link">
+              OR CALL <?php echo esc_html( $phone ); ?>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Global Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <a href="#hero" class="footer-logo-link">
+        <img src="<?php echo esc_url( $img_url . 'everline-white.png' ); ?>" alt="EverLine" class="footer-logo">
+      </a>
+    </div>
+
+    <div class="footer-tagline">
+      <span>INSPIRED DESIGN</span>
+      <span class="tagline-dot">•</span>
+      <span>PROVEN PROTECTION</span>
+    </div>
+
+    <div class="footer-external">
+      <a href="https://www.bestbuymetals.com" target="_blank" rel="noopener" class="footer-external-link">
+        <span>VISIT BEST BUY METALS</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom-bar">
+    <div class="footer-bottom-container">
+      <p class="copyright">© <?php echo date('Y'); ?> Best Buy Metals. All rights reserved. EverLine™ is a trademark of Best Buy Metals.</p>
+      <div class="footer-legal-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Warranty Details</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Modal: Check Availability / Launch Quote Request -->
+<div class="modal-backdrop" id="quoteModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-header-text">
+        <span class="modal-badge">LAUNCH OFFER APPLIED • 15% OFF</span>
+        <h3 class="modal-title" id="modalTitle">Plan Your EverLine Project</h3>
+        <p class="modal-subtitle">Connect with a Best Buy Metals fence specialist for specs, pricing, and availability.</p>
+      </div>
+      <button class="modal-close" id="closeQuoteModal" aria-label="Close modal">&times;</button>
+    </div>
+
+    <form class="modal-form" id="quoteForm">
+      <div class="form-row form-row-2">
+        <div class="form-group">
+          <label for="fullName">Full Name <span class="req">*</span></label>
+          <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address <span class="req">*</span></label>
+          <input type="email" id="email" name="email" required placeholder="john@example.com">
+        </div>
+      </div>
+
+      <div class="form-row form-row-2">
+        <div class="form-group">
+          <label for="phone">Phone Number <span class="req">*</span></label>
+          <input type="tel" id="phone" name="phone" required placeholder="(555) 000-0000">
+        </div>
+        <div class="form-group">
+          <label for="zipCode">Project Zip Code <span class="req">*</span></label>
+          <input type="text" id="zipCode" name="zipCode" required placeholder="37402">
+        </div>
+      </div>
+
+      <div class="form-row form-row-2">
+        <div class="form-group">
+          <label for="projectType">I am a...</label>
+          <select id="projectType" name="projectType">
+            <option value="Homeowner">Homeowner</option>
+            <option value="Fencing Contractor">Fencing Contractor</option>
+            <option value="General Contractor">General Contractor / Builder</option>
+            <option value="Architect / Designer">Architect / Landscape Designer</option>
+            <option value="Commercial Developer">Commercial / Estate Developer</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="collectionChoice">Collection of Interest</label>
+          <select id="collectionChoice" name="collectionChoice">
+            <option value="Both Collections">Both (TimberLine + RidgeLine)</option>
+            <option value="TimberLine">TimberLine (Privacy System)</option>
+            <option value="RidgeLine">RidgeLine (Open Rail System)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row form-row-2">
+        <div class="form-group">
+          <label for="estFootage">Estimated Linear Footage</label>
+          <select id="estFootage" name="estFootage">
+            <option value="Under 100 ft">Under 100 ft</option>
+            <option value="100 - 250 ft" selected>100 - 250 ft</option>
+            <option value="250 - 500 ft">250 - 500 ft</option>
+            <option value="500+ ft (Large Estate / Commercial)">500+ ft (Large Estate / Commercial)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="timeframe">Project Timeline</label>
+          <select id="timeframe" name="timeframe">
+            <option value="Pre-order (Sept 15 launch)">Pre-order for Sept 15 launch</option>
+            <option value="1 - 2 Months">Within 1 - 2 Months</option>
+            <option value="3 - 6 Months">3 - 6 Months</option>
+            <option value="Planning / Budgeting">Budgeting / Future Project</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="notes">Project Notes or Questions (Optional)</label>
+        <textarea id="notes" name="notes" rows="3" placeholder="Tell us about your property layout, desired fence height, or gate requirements..."></textarea>
+      </div>
+
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-dark btn-block btn-lg" id="submitQuoteBtn">
+          <span>SUBMIT INQUIRY & LOCK IN 15% LAUNCH OFFER</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+        <p class="form-privacy-note">Your information is secure and only used to respond to your inquiry. No spam guaranteed.</p>
+      </div>
+    </form>
+
+    <!-- Success State Confirmation -->
+    <div class="modal-success-state" id="modalSuccessState" style="display: none;">
+      <div class="success-icon">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2b302a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+      </div>
+      <h3 class="success-title">Thank You! Inquiry Received</h3>
+      <p class="success-msg">A Best Buy Metals representative will reach out shortly with product details, availability, and your 15% pre-launch voucher code.</p>
+      <div class="voucher-box">
+        <span class="voucher-label">PRE-ORDER PROMO CODE:</span>
+        <span class="voucher-code"><?php echo esc_html( $promo_code ); ?></span>
+      </div>
+      <button class="btn btn-dark" id="closeSuccessBtn">BACK TO EVERLINE</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Specifications Quick-View -->
+<div class="modal-backdrop" id="specsModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="specsTitle">
+  <div class="modal-dialog modal-dialog-lg">
+    <div class="modal-header">
+      <div class="modal-header-text">
+        <span class="modal-badge">ARCHITECTURAL SPECIFICATIONS</span>
+        <h3 class="modal-title" id="specsTitle">Collection Technical Details</h3>
+      </div>
+      <button class="modal-close" id="closeSpecsModal" aria-label="Close specifications">&times;</button>
+    </div>
+
+    <div class="specs-modal-body" id="specsModalContent">
+      <!-- Injected dynamically by everline.js -->
+    </div>
+  </div>
+</div>
