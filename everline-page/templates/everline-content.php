@@ -169,7 +169,7 @@ $promo_code = 'EVERLINE15';
             <span class="collection-category">OPEN RAIL FENCE COLLECTION</span>
             <span class="collection-number">01</span>
           </div>
-          <img src="<?php echo esc_url( $img_url . 'ridgeline-black.png' ); ?>" alt="RIDGELINE" class="collection-brand-logo">
+          <h3 class="collection-name">RIDGELINE</h3>
           <p class="collection-body">
             Inspired by ranches and rolling landscapes, RidgeLine defines property boundaries while maintaining visibility. Ideal for residential, agricultural, and estate applications.
           </p>
@@ -202,7 +202,7 @@ $promo_code = 'EVERLINE15';
             <span class="collection-category">CONTEMPORARY FENCE COLLECTION</span>
             <span class="collection-number">02</span>
           </div>
-          <img src="<?php echo esc_url( $img_url . 'timberline-black.png' ); ?>" alt="TIMBERLINE" class="collection-brand-logo">
+          <h3 class="collection-name">TIMBERLINE</h3>
           <p class="collection-body">
             Inspired by the warmth and character of natural wood, TimberLine features clean horizontal lines in privacy and rail configurations. Available in woodgrain and solid color options.
           </p>

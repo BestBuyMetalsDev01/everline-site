@@ -33,7 +33,7 @@
           <span class="collection-category"><?php esc_html_e( 'OPEN RAIL FENCE COLLECTION', 'everline' ); ?></span>
           <span class="collection-number">01</span>
         </div>
-        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/ridgeline-black.png' ); ?>" alt="<?php esc_attr_e( 'RIDGELINE', 'everline' ); ?>" class="collection-brand-logo">
+        <h3 class="collection-name"><?php esc_html_e( 'RIDGELINE', 'everline' ); ?></h3>
         <p class="collection-body">
           <?php esc_html_e( 'Inspired by ranches and rolling landscapes, RidgeLine defines property boundaries while maintaining visibility. Ideal for residential, agricultural, and estate applications.', 'everline' ); ?>
         </p>
@@ -66,7 +66,7 @@
           <span class="collection-category"><?php esc_html_e( 'CONTEMPORARY FENCE COLLECTION', 'everline' ); ?></span>
           <span class="collection-number">02</span>
         </div>
-        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/timberline-black.png' ); ?>" alt="<?php esc_attr_e( 'TIMBERLINE', 'everline' ); ?>" class="collection-brand-logo">
+        <h3 class="collection-name"><?php esc_html_e( 'TIMBERLINE', 'everline' ); ?></h3>
         <p class="collection-body">
           <?php esc_html_e( 'Inspired by the warmth and character of natural wood, TimberLine features clean horizontal lines in privacy and rail configurations. Available in woodgrain and solid color options.', 'everline' ); ?>
         </p>
