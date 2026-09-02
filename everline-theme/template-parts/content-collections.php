@@ -27,6 +27,9 @@
     <article class="collection-card" id="ridgeline-card">
       <div class="collection-image-wrapper">
         <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/ridgeline.jpg' ); ?>" alt="<?php esc_attr_e( 'RidgeLine Architectural Open Rail Fence', 'everline' ); ?>" class="collection-img">
+        <div class="collection-image-overlay">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/ridgeline-white.png' ); ?>" alt="<?php esc_attr_e( 'RIDGELINE', 'everline' ); ?>" class="collection-overlay-logo">
+        </div>
       </div>
       <div class="collection-info-box">
         <div class="collection-meta-row">
@@ -60,6 +63,9 @@
     <article class="collection-card" id="timberline-card">
       <div class="collection-image-wrapper">
         <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/timberline.jpg' ); ?>" alt="<?php esc_attr_e( 'TimberLine Woodgrain Metal Privacy Fence', 'everline' ); ?>" class="collection-img">
+        <div class="collection-image-overlay">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/timberline-white.png' ); ?>" alt="<?php esc_attr_e( 'TIMBERLINE', 'everline' ); ?>" class="collection-overlay-logo">
+        </div>
       </div>
       <div class="collection-info-box">
         <div class="collection-meta-row">

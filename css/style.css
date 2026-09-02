@@ -661,12 +661,29 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.1);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.22) 100%);
   pointer-events: none;
+  transition: background var(--transition-smooth);
+}
+
+.collection-card:hover .collection-image-overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.35) 100%);
+}
+
+.collection-overlay-logo {
+  width: 68%;
+  max-width: 360px;
+  height: auto;
+  filter: drop-shadow(0 4px 16px rgba(0, 0, 0, 0.55)) drop-shadow(0 1px 3px rgba(0, 0, 0, 0.35));
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.collection-card:hover .collection-overlay-logo {
+  transform: scale(1.04);
 }
 
 .collection-overlay-title {
-  display: none; /* Image already features stylized brand artwork */
+  display: none;
 }
 
 .collection-info-box {

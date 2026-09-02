@@ -183,6 +183,9 @@ $promo_code = 'EVERLINE15';
       <article class="collection-card" id="ridgeline-card">
         <div class="collection-image-wrapper">
           <img src="<?php echo esc_url( $img_url . 'ridgeline.jpg' ); ?>" alt="RidgeLine Architectural Open Rail Fence" class="collection-img">
+          <div class="collection-image-overlay">
+            <img src="<?php echo esc_url( $img_url . 'ridgeline-white.png' ); ?>" alt="RIDGELINE" class="collection-overlay-logo">
+          </div>
         </div>
         <div class="collection-info-box">
           <div class="collection-meta-row">
@@ -216,6 +219,9 @@ $promo_code = 'EVERLINE15';
       <article class="collection-card" id="timberline-card">
         <div class="collection-image-wrapper">
           <img src="<?php echo esc_url( $img_url . 'timberline.jpg' ); ?>" alt="TimberLine Woodgrain Metal Privacy Fence" class="collection-img">
+          <div class="collection-image-overlay">
+            <img src="<?php echo esc_url( $img_url . 'timberline-white.png' ); ?>" alt="TIMBERLINE" class="collection-overlay-logo">
+          </div>
         </div>
         <div class="collection-info-box">
           <div class="collection-meta-row">
