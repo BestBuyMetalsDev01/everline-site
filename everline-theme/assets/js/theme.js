@@ -141,11 +141,9 @@ const SPEC_DATA = {
     subtitle: 'Engineered for open architectural sightlines and enduring landscape boundaries.',
     features: [
       { label: 'System Type', value: 'Architectural Horizontal Metal Rail' },
-      { label: 'Standard Heights', value: '4 ft, 5 ft, and 6 ft nominal' },
-      { label: 'Rail Configuration', value: '3-Rail or 4-Rail horizontal spacing' },
+      { label: 'Rail Configuration', value: '3-Rail or 4-Rail vertical spacing' },
       { label: 'Substrate', value: 'Heavy-gauge Galvalume® steel core (55% aluminum / 45% zinc alloy)' },
       { label: 'Coating Systems', value: 'Painted: primer & Galvalume® substrate under paint; Unpainted: 55% Al / 45% Zn with clear acrylic overcoat' },
-      { label: 'Post Dimensions', value: '3" x 3" or 4" x 4" structural metal posts' },
       { label: 'Post Spacing', value: '6 ft and 8 ft on-center standard' },
       { label: 'Applications', value: 'Perimeter boundaries, residential frontages, estates, equestrian' },
       { label: 'Maintenance', value: 'Zero staining, sealing, or painting required; wash with water' },
