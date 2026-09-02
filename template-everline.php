@@ -484,9 +484,19 @@ $promo_code = 'EVERLINE15';
       </div>
 
       <div class="cta-banner-right">
-        <div class="hubspot-form-container">
-          <script src="https://js.hsforms.net/forms/embed/6362600.js" defer></script>
-          <div class="hs-form-frame" data-region="na1" data-form-id="7051366e-60dd-4018-b004-5660ed5241e8" data-portal-id="6362600"></div>
+        <div class="contact-card">
+          <p class="contact-card-text">
+            <?php esc_html_e( 'For current EverLine options, pricing, and ordering information, connect directly with your local Best Buy Metals team.', 'everline' ); ?>
+          </p>
+          <button class="btn btn-sage btn-block" id="contactSalesBtn">
+            <span><?php esc_html_e( 'CONTACT BEST BUY METALS', 'everline' ); ?></span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+          <div class="contact-card-phone">
+            <a href="tel:<?php echo esc_attr( $phone_clean ); ?>" class="phone-link">
+              <?php printf( esc_html__( 'OR CALL %s', 'everline' ), esc_html( $phone ) ); ?>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -539,99 +549,12 @@ $promo_code = 'EVERLINE15';
       <button class="modal-close" id="closeQuoteModal" aria-label="Close modal">&times;</button>
     </div>
 
-    <form class="modal-form" id="quoteForm">
-      <div class="form-row form-row-2">
-        <div class="form-group">
-          <label for="fullName">Full Name <span class="req">*</span></label>
-          <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
-        </div>
-        <div class="form-group">
-          <label for="email">Email Address <span class="req">*</span></label>
-          <input type="email" id="email" name="email" required placeholder="john@example.com">
-        </div>
+      <div class="modal-body">
+        <script src="https://js.hsforms.net/forms/embed/6362600.js" defer></script>
+        <div class="hs-form-frame" data-region="na1" data-form-id="7051366e-60dd-4018-b004-5660ed5241e8" data-portal-id="6362600"></div>
       </div>
-
-      <div class="form-row form-row-2">
-        <div class="form-group">
-          <label for="phone">Phone Number <span class="req">*</span></label>
-          <input type="tel" id="phone" name="phone" required placeholder="(555) 000-0000">
-        </div>
-        <div class="form-group">
-          <label for="zipCode">Project Zip Code <span class="req">*</span></label>
-          <input type="text" id="zipCode" name="zipCode" required placeholder="37402">
-        </div>
-      </div>
-
-      <div class="form-row form-row-2">
-        <div class="form-group">
-          <label for="projectType">I am a...</label>
-          <select id="projectType" name="projectType">
-            <option value="Homeowner">Homeowner</option>
-            <option value="Fencing Contractor">Fencing Contractor</option>
-            <option value="General Contractor">General Contractor / Builder</option>
-            <option value="Architect / Designer">Architect / Landscape Designer</option>
-            <option value="Commercial Developer">Commercial / Estate Developer</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="collectionChoice">Collection of Interest</label>
-          <select id="collectionChoice" name="collectionChoice">
-            <option value="Both Collections">Both (TimberLine + RidgeLine)</option>
-            <option value="TimberLine">TimberLine (Privacy System)</option>
-            <option value="RidgeLine">RidgeLine (Open Rail System)</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="form-row form-row-2">
-        <div class="form-group">
-          <label for="estFootage">Estimated Linear Footage</label>
-          <select id="estFootage" name="estFootage">
-            <option value="Under 100 ft">Under 100 ft</option>
-            <option value="100 - 250 ft" selected>100 - 250 ft</option>
-            <option value="250 - 500 ft">250 - 500 ft</option>
-            <option value="500+ ft (Large Estate / Commercial)">500+ ft (Large Estate / Commercial)</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="timeframe">Project Timeline</label>
-          <select id="timeframe" name="timeframe">
-            <option value="Pre-order (Sept 15 launch)">Pre-order for Sept 15 launch</option>
-            <option value="1 - 2 Months">Within 1 - 2 Months</option>
-            <option value="3 - 6 Months">3 - 6 Months</option>
-            <option value="Planning / Budgeting">Budgeting / Future Project</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="form-group">
-        <label for="notes">Project Notes or Questions (Optional)</label>
-        <textarea id="notes" name="notes" rows="3" placeholder="Tell us about your property layout, desired fence height, or gate requirements..."></textarea>
-      </div>
-
-      <div class="modal-footer">
-        <button type="submit" class="btn btn-dark btn-block btn-lg" id="submitQuoteBtn">
-          <span>SUBMIT INQUIRY & LOCK IN 15% LAUNCH OFFER</span>
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-        </button>
-        <p class="form-privacy-note">Your information is secure and only used to respond to your inquiry. No spam guaranteed.</p>
-      </div>
-    </form>
-
-    <div class="modal-success-state" id="modalSuccessState" style="display: none;">
-      <div class="success-icon">
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2b302a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-      </div>
-      <h3 class="success-title">Thank You! Inquiry Received</h3>
-      <p class="success-msg">A Best Buy Metals representative will reach out shortly with product details, availability, and your 15% pre-launch voucher code.</p>
-      <div class="voucher-box">
-        <span class="voucher-label">PRE-ORDER PROMO CODE:</span>
-        <span class="voucher-code"><?php echo esc_html( $promo_code ); ?></span>
-      </div>
-      <button class="btn btn-dark" id="closeSuccessBtn">BACK TO EVERLINE</button>
     </div>
   </div>
-</div>
 
 <div class="modal-backdrop" id="specsModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="specsTitle">
   <div class="modal-dialog modal-dialog-lg">
