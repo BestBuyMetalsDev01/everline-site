@@ -190,6 +190,7 @@ function initModals() {
   // Quote Modal Triggers
   const openQuoteBtns = [
     document.getElementById('openQuoteModalBtn'),
+    document.getElementById('mobileCheckAvailBtn'),
     document.getElementById('heroLaunchPricingBtn'),
     document.getElementById('claimOfferBtn'),
     document.getElementById('contactSalesBtn')
