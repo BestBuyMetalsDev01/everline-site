@@ -341,14 +341,14 @@ $promo_code = 'EVERLINE15';
         <div class="accordion-item" id="faq-item-1">
           <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-1" id="faq-btn-1">
             <span class="accordion-num">01</span>
-            <span class="accordion-question">What makes EverLine different from traditional fencing?</span>
+            <span class="accordion-question">How much does EverLine cost?</span>
             <span class="accordion-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </span>
           </button>
           <div class="accordion-panel" id="faq-panel-1" role="region" aria-labelledby="faq-btn-1">
             <div class="accordion-panel-inner">
-              EverLine bridges architectural elegance and industrial strength. Unlike standard wood or vinyl fences, EverLine is engineered with heavy-duty exterior-grade steel coated in high-performance weather-resistant finishes. It will never warp, crack, splinter, fade, or host moss and mold—providing pristine curb appeal year after year.
+              If you’re looking for a permanent fence, EverLine is competitively priced and may even be more affordable than other permanent fencing options. For specific pricing or a quote, contact your local Best Buy Metals on or after the release date. As pricing will vary based on gauge, color, and length.
             </div>
           </div>
         </div>
@@ -357,14 +357,14 @@ $promo_code = 'EVERLINE15';
         <div class="accordion-item" id="faq-item-2">
           <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-2" id="faq-btn-2">
             <span class="accordion-num">02</span>
-            <span class="accordion-question">Why choose metal fencing instead of wood?</span>
+            <span class="accordion-question">What lengths does EverLine come in?</span>
             <span class="accordion-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </span>
           </button>
           <div class="accordion-panel" id="faq-panel-2" role="region" aria-labelledby="faq-btn-2">
             <div class="accordion-panel-inner">
-              Traditional wood requires ongoing pressure washing, chemical sealers, re-staining, and periodic board replacement. EverLine’s metal construction delivers the organic warmth and character of natural wood without the constant maintenance, insect vulnerability, dry rot, or fire hazard.
+              EverLine will be available in 6 ft. high &times; 6 ft. long sections for TimberLine, and 4 ft. high &times; 8 ft. long sections for RidgeLine. Custom sizes will also be available.
             </div>
           </div>
         </div>
@@ -373,14 +373,18 @@ $promo_code = 'EVERLINE15';
         <div class="accordion-item" id="faq-item-3">
           <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-3" id="faq-btn-3">
             <span class="accordion-num">03</span>
-            <span class="accordion-question">Can EverLine be used around an entire property?</span>
+            <span class="accordion-question">What is the warranty?</span>
             <span class="accordion-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </span>
           </button>
           <div class="accordion-panel" id="faq-panel-3" role="region" aria-labelledby="faq-btn-3">
             <div class="accordion-panel-inner">
-              Yes. Both TimberLine and RidgeLine share a unified architectural design language and mounting system. You can install full-privacy TimberLine panels around backyards, patios, and pools, while transitioning effortlessly to open-rail RidgeLine for front yards, driveways, and expansive property boundaries.
+              <p>EverLine offers different warranty coverage depending on the finish selected:</p>
+              <ul class="faq-list">
+                <li><strong>Standard &amp; HD Paint:</strong> 50-year finish warranty and 30-year fade/chalk warranty.</li>
+                <li><strong>Wood Print:</strong> 25-year finish warranty and 20-year fade/chalk warranty.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -389,14 +393,14 @@ $promo_code = 'EVERLINE15';
         <div class="accordion-item" id="faq-item-4">
           <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-4" id="faq-btn-4">
             <span class="accordion-num">04</span>
-            <span class="accordion-question">Can contractors install EverLine?</span>
+            <span class="accordion-question">Can it be installed on concrete?</span>
             <span class="accordion-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </span>
           </button>
           <div class="accordion-panel" id="faq-panel-4" role="region" aria-labelledby="faq-btn-4">
             <div class="accordion-panel-inner">
-              Yes! EverLine is built installer-ready for fencing contractors, general contractors, and landscape professionals. Best Buy Metals supplies comprehensive installation documentation, specification guides, brackets, and dedicated contractor project support.
+              Yes. You would need to use steel post with a base to bolt into the concrete.
             </div>
           </div>
         </div>
@@ -405,14 +409,14 @@ $promo_code = 'EVERLINE15';
         <div class="accordion-item" id="faq-item-5">
           <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-5" id="faq-btn-5">
             <span class="accordion-num">05</span>
-            <span class="accordion-question">Where can I buy EverLine?</span>
+            <span class="accordion-question">What gauge steel is EverLine?</span>
             <span class="accordion-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </span>
           </button>
           <div class="accordion-panel" id="faq-panel-5" role="region" aria-labelledby="faq-btn-5">
             <div class="accordion-panel-inner">
-              EverLine is exclusively distributed through Best Buy Metals branches and authorized professional partners. You can order directly by requesting launch pricing through this website or speaking with your local Best Buy Metals sales representative.
+              EverLine is available in two steel gauges: 24-gauge and 26-gauge, allowing you to choose the option that best fits your project’s needs.
             </div>
           </div>
         </div>
@@ -421,14 +425,14 @@ $promo_code = 'EVERLINE15';
         <div class="accordion-item" id="faq-item-6">
           <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-6" id="faq-btn-6">
             <span class="accordion-num">06</span>
-            <span class="accordion-question">How quickly can I get my order?</span>
+            <span class="accordion-question">What are the standard color options &amp; can I do custom?</span>
             <span class="accordion-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </span>
           </button>
           <div class="accordion-panel" id="faq-panel-6" role="region" aria-labelledby="faq-btn-6">
             <div class="accordion-panel-inner">
-              Pre-orders officially open September 15, 2026. Production batches begin fulfillment in October 2026. Standard lead times once in full distribution run approximately 2 to 4 weeks depending on your order volume, destination, and selected finish options.
+              EverLine will be offered in all of our 26 &amp; 24 gauge colors. White, HD Black, and TigerWood will be stocked in the near future.
             </div>
           </div>
         </div>
@@ -437,14 +441,14 @@ $promo_code = 'EVERLINE15';
         <div class="accordion-item" id="faq-item-7">
           <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-7" id="faq-btn-7">
             <span class="accordion-num">07</span>
-            <span class="accordion-question">Is EverLine easy to install?</span>
+            <span class="accordion-question">Can the post be different colors?</span>
             <span class="accordion-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </span>
           </button>
           <div class="accordion-panel" id="faq-panel-7" role="region" aria-labelledby="faq-btn-7">
             <div class="accordion-panel-inner">
-              Yes. EverLine uses an engineered modular bracket and channel system designed to reduce installation hours compared to traditional custom metalwork. Components slide securely into place without any field welding required.
+              Yes, EverLine allows you to choose a different color for the fence posts and planks, giving you the flexibility to create a customized, two-tone look.
             </div>
           </div>
         </div>
@@ -453,14 +457,30 @@ $promo_code = 'EVERLINE15';
         <div class="accordion-item" id="faq-item-8">
           <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-8" id="faq-btn-8">
             <span class="accordion-num">08</span>
-            <span class="accordion-question">What warranties protect EverLine fencing?</span>
+            <span class="accordion-question">Do you guys sell 4x4 wood post weather treated?</span>
             <span class="accordion-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </span>
           </button>
           <div class="accordion-panel" id="faq-panel-8" role="region" aria-labelledby="faq-btn-8">
             <div class="accordion-panel-inner">
-              EverLine is backed by industry-leading warranties from Best Buy Metals. Painted finishes carry a 50-year paint warranty, a 50-year substrate warranty, and a 30-year fade/chalk warranty, engineered with primer and a heavy-gauge Galvalume® steel substrate under the paint. Unpainted Galvalume carries a 45-year warranty with a 55% aluminum and 45% zinc protective coating plus a clear acrylic overcoat.
+              Yes. Best Buy Metals does sell weather-treated 4x4 wood posts. To eliminate wood you can also choose our EverPost which is a patent pending all metal design.
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="accordion-item" id="faq-item-9">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-9" id="faq-btn-9">
+            <span class="accordion-num">09</span>
+            <span class="accordion-question">What is the turn around time?</span>
+            <span class="accordion-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="accordion-panel" id="faq-panel-9" role="region" aria-labelledby="faq-btn-9">
+            <div class="accordion-panel-inner">
+              We expect a week on most projects initially. We will scale production as needed but the exact lead time may vary depending on the project. EverLine will also be stocked in the three standard color options in the near future, which will help make those options available with a much faster turnaround.
             </div>
           </div>
         </div>

@@ -1156,6 +1156,16 @@ a {
   color: var(--color-text-muted);
 }
 
+.faq-list {
+  margin: 10px 0 0 18px;
+  list-style: disc;
+}
+
+.faq-list li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+
 /* ==========================================================================
    Pre-Footer CTA Section
    ========================================================================== */
