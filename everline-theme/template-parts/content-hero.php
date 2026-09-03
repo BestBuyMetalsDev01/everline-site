@@ -7,7 +7,7 @@
 ?>
 <section class="hero-section" id="hero">
   <div class="hero-bg-container">
-    <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/hero-clean.jpg' ); ?>" alt="<?php esc_attr_e( 'EverLine Black Modern Metal Fence Landscape', 'everline' ); ?>" class="hero-bg-img">
+    <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/hero-clean.jpg' ); ?>" alt="<?php esc_attr_e( 'EverLine Architectural Open Rail Fence Landscape', 'everline' ); ?>" class="hero-bg-img">
     <div class="hero-overlay-gradient"></div>
   </div>
 

@@ -97,7 +97,7 @@ $promo_code = 'EVERLINE15';
   <!-- Hero Section -->
   <section class="hero-section" id="hero">
     <div class="hero-bg-container">
-      <img src="<?php echo esc_url( $img_url . 'hero-clean.jpg' ); ?>" alt="EverLine Black Modern Metal Fence Landscape" class="hero-bg-img">
+      <img src="<?php echo esc_url( $img_url . 'hero-clean.jpg' ); ?>" alt="EverLine Architectural Open Rail Fence Landscape" class="hero-bg-img">
       <div class="hero-overlay-gradient"></div>
     </div>
 
