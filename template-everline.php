@@ -367,7 +367,7 @@ $promo_code = 'EVERLINE15';
           </button>
           <div class="accordion-panel" id="faq-panel-1" role="region" aria-labelledby="faq-btn-1">
             <div class="accordion-panel-inner">
-              If you’re looking for a permanent fence, EverLine is competitively priced and may even be more affordable than other permanent fencing options. For specific pricing or a quote, contact your local Best Buy Metals on or after the release date. As pricing will vary based on gauge, color, and length.
+              If you’re looking for a permanent fence, EverLine is competitively priced and may even be more affordable than other permanent fencing options. For specific pricing or a quote, contact your local Best Buy Metals on or after the release date, as pricing will vary based on color and length.
             </div>
           </div>
         </div>
@@ -435,7 +435,7 @@ $promo_code = 'EVERLINE15';
           </button>
           <div class="accordion-panel" id="faq-panel-5" role="region" aria-labelledby="faq-btn-5">
             <div class="accordion-panel-inner">
-              EverLine is available in two steel gauges: 24-gauge and 26-gauge, allowing you to choose the option that best fits your project’s needs.
+              EverLine is crafted from premium 26-gauge steel, delivering exceptional structural strength, weather resistance, and lasting durability for permanent fencing.
             </div>
           </div>
         </div>
@@ -451,7 +451,7 @@ $promo_code = 'EVERLINE15';
           </button>
           <div class="accordion-panel" id="faq-panel-6" role="region" aria-labelledby="faq-btn-6">
             <div class="accordion-panel-inner">
-              EverLine will be offered in all of our 26 &amp; 24 gauge colors. White, HD Black, and TigerWood will be stocked in the near future.
+              EverLine will be offered in all of our 26-gauge colors. White, HD Black, and TigerWood will be stocked in the near future.
             </div>
           </div>
         </div>

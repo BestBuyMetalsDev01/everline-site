@@ -141,14 +141,16 @@ const SPEC_DATA = {
     subtitle: 'Engineered for open architectural sightlines and enduring landscape boundaries.',
     features: [
       { label: 'System Type', value: 'Architectural Horizontal Metal Rail' },
+      { label: 'Section Dimensions', value: '4 ft. high × 8 ft. long sections (custom sizes available)' },
       { label: 'Rail Configuration', value: '3-Rail or 4-Rail vertical spacing' },
-      { label: 'Substrate', value: '24, 26, 29 gauge steel' },
-      { label: 'Coating Systems', value: 'Painted: primer & Galvalume® substrate under paint; Unpainted: 55% Al / 45% Zn with clear acrylic overcoat' },
-      { label: 'Post Spacing', value: '6 ft and 8 ft on-center standard' },
+      { label: 'Substrate', value: '26-gauge steel' },
+      { label: 'Coating Systems', value: 'Standard & HD Paint finishes (primer & protective alloy substrate under paint)' },
+      { label: 'Post Options', value: 'EverPost patent-pending all-metal design or weather-treated 4x4 wood posts' },
+      { label: 'Mounting / Foundation', value: 'In-ground set or concrete mount (steel post with base bolted to concrete)' },
+      { label: 'Color Options', value: 'Available in all 26-gauge colors; White and HD Black stocked; two-tone post & rail customization' },
       { label: 'Applications', value: 'Perimeter boundaries, residential frontages, estates, equestrian' },
       { label: 'Maintenance', value: 'Zero staining, sealing, or painting required; wash with water' },
-      { label: 'Painted Warranty', value: '50-Year paint warranty, 50-Year substrate warranty, 30-Year fade/chalk warranty' },
-      { label: 'Galvalume Warranty', value: '45-Year unpainted Galvalume® warranty' }
+      { label: 'Paint Warranty', value: '50-Year finish warranty and 30-Year fade/chalk warranty' }
     ]
   },
   timberline: {
@@ -156,15 +158,16 @@ const SPEC_DATA = {
     subtitle: 'Natural wood-grain aesthetics paired with heavy-duty metal privacy engineering.',
     features: [
       { label: 'System Type', value: 'Full-Privacy Architectural Metal Tongue-and-Groove' },
-      { label: 'Standard Heights', value: '6 ft standard residential privacy' },
+      { label: 'Section Dimensions', value: '6 ft. high × 6 ft. long sections (custom sizes available)' },
       { label: 'Slat Orientation', value: 'Clean modern horizontal interlocking slats' },
-      { label: 'Finish Options', value: 'High-definition architectural woodgrain patterns & matte solid tones' },
-      { label: 'Substrate', value: '24, 26, 29 gauge steel' },
-      { label: 'Coating Systems', value: 'Painted: primer & Galvalume® substrate under paint; Unpainted: 55% Al / 45% Zn with clear acrylic overcoat' },
+      { label: 'Substrate', value: '26-gauge steel' },
+      { label: 'Finish Options', value: 'Available in all 26-gauge colors & Wood Prints; White, HD Black, and TigerWood stocked' },
+      { label: 'Post Options', value: 'EverPost patent-pending all-metal design or weather-treated 4x4 wood posts (two-tone post & plank options)' },
+      { label: 'Mounting / Foundation', value: 'In-ground set or concrete mount (steel post with base bolted to concrete)' },
       { label: 'Applications', value: 'Backyard retreats, pool enclosures, patio privacy, commercial screening' },
       { label: 'Maintenance', value: 'Zero staining, sealing, or painting required; wash with water' },
-      { label: 'Painted Warranty', value: '50-Year paint warranty, 50-Year substrate warranty, 30-Year fade/chalk warranty' },
-      { label: 'Galvalume Warranty', value: '45-Year unpainted Galvalume® warranty' }
+      { label: 'Standard & HD Paint Warranty', value: '50-Year finish warranty and 30-Year fade/chalk warranty' },
+      { label: 'Wood Print Warranty', value: '25-Year finish warranty and 20-Year fade/chalk warranty' }
     ]
   }
 };
