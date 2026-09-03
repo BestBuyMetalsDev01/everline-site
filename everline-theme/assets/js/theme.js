@@ -161,7 +161,6 @@ const SPEC_DATA = {
       { label: 'Finish Options', value: 'High-definition architectural woodgrain patterns & matte solid tones' },
       { label: 'Substrate', value: '24, 26, 29 gauge steel' },
       { label: 'Coating Systems', value: 'Painted: primer & Galvalume® substrate under paint; Unpainted: 55% Al / 45% Zn with clear acrylic overcoat' },
-      { label: 'Post System', value: 'Internal concealed channel posts (zero visible fasteners)' },
       { label: 'Applications', value: 'Backyard retreats, pool enclosures, patio privacy, commercial screening' },
       { label: 'Maintenance', value: 'Zero staining, sealing, or painting required; wash with water' },
       { label: 'Painted Warranty', value: '50-Year paint warranty, 50-Year substrate warranty, 30-Year fade/chalk warranty' },
