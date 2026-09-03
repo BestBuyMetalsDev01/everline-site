@@ -142,7 +142,7 @@ const SPEC_DATA = {
     features: [
       { label: 'System Type', value: 'Architectural Horizontal Metal Rail' },
       { label: 'Rail Configuration', value: '3-Rail or 4-Rail vertical spacing' },
-      { label: 'Substrate', value: 'Heavy-gauge Galvalume® steel core (55% aluminum / 45% zinc alloy)' },
+      { label: 'Substrate', value: '24, 26, 29 gauge steel' },
       { label: 'Coating Systems', value: 'Painted: primer & Galvalume® substrate under paint; Unpainted: 55% Al / 45% Zn with clear acrylic overcoat' },
       { label: 'Post Spacing', value: '6 ft and 8 ft on-center standard' },
       { label: 'Applications', value: 'Perimeter boundaries, residential frontages, estates, equestrian' },
@@ -159,7 +159,7 @@ const SPEC_DATA = {
       { label: 'Standard Heights', value: '6 ft standard residential privacy' },
       { label: 'Slat Orientation', value: 'Clean modern horizontal interlocking slats' },
       { label: 'Finish Options', value: 'High-definition architectural woodgrain patterns & matte solid tones' },
-      { label: 'Substrate', value: 'Heavy-gauge Galvalume® steel core (55% aluminum / 45% zinc alloy)' },
+      { label: 'Substrate', value: '24, 26, 29 gauge steel' },
       { label: 'Coating Systems', value: 'Painted: primer & Galvalume® substrate under paint; Unpainted: 55% Al / 45% Zn with clear acrylic overcoat' },
       { label: 'Post System', value: 'Internal concealed channel posts (zero visible fasteners)' },
       { label: 'Applications', value: 'Backyard retreats, pool enclosures, patio privacy, commercial screening' },
